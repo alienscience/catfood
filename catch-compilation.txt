@@ -1,0 +1,805 @@
+10:10:31: Running steps for project alien-lisp...
+10:10:31: Starting: "/usr/bin/make" all
+Scanning dependencies of target vm
+[  5%] Building CXX object CMakeFiles/vm.dir/vm/blockallocator.cc.o
+[ 11%] Building CXX object CMakeFiles/vm.dir/vm/page.cc.o
+Linking CXX static library libvm.a
+[ 88%] Built target vm
+Scanning dependencies of target tests
+[ 94%] Building CXX object CMakeFiles/tests.dir/tests/linkedlist.cc.o
+In file included from /home/saul/play/alien-lisp/tests/linkedlist.cc:28:0:
+/home/saul/play/alien-lisp/tests/catch.hpp:508:38: warning: anonymous variadic macros were introduced in C99 [-Wvariadic-macros]
+     #define INTERNAL_CATCH_TESTCASE( ... ) \
+                                      ^
+In file included from /home/saul/play/alien-lisp/tests/linkedlist.cc:28:0:
+/home/saul/play/alien-lisp/tests/catch.hpp:514:66: warning: anonymous variadic macros were introduced in C99 [-Wvariadic-macros]
+     #define INTERNAL_CATCH_METHOD_AS_TEST_CASE( QualifiedMethod, ... ) \
+                                                                  ^
+/home/saul/play/alien-lisp/tests/catch.hpp:518:57: warning: anonymous variadic macros were introduced in C99 [-Wvariadic-macros]
+     #define INTERNAL_CATCH_TEST_CASE_METHOD( ClassName, ... )\
+                                                         ^
+In file included from /home/saul/play/alien-lisp/tests/linkedlist.cc:28:0:
+/home/saul/play/alien-lisp/tests/catch.hpp:3004:37: warning: anonymous variadic macros were introduced in C99 [-Wvariadic-macros]
+     #define INTERNAL_CATCH_SECTION( ... ) \
+                                     ^
+In file included from /home/saul/play/alien-lisp/tests/linkedlist.cc:28:0:
+/home/saul/play/alien-lisp/tests/catch.hpp:7836:24: warning: anonymous variadic macros were introduced in C99 [-Wvariadic-macros]
+     #define TEST_CASE( ... ) INTERNAL_CATCH_TESTCASE( __VA_ARGS__ )
+                        ^
+/home/saul/play/alien-lisp/tests/catch.hpp:7837:42: warning: anonymous variadic macros were introduced in C99 [-Wvariadic-macros]
+     #define TEST_CASE_METHOD( className, ... ) INTERNAL_CATCH_TEST_CASE_METHOD( className, __VA_ARGS__ )
+                                          ^
+/home/saul/play/alien-lisp/tests/catch.hpp:7838:42: warning: anonymous variadic macros were introduced in C99 [-Wvariadic-macros]
+     #define METHOD_AS_TEST_CASE( method, ... ) INTERNAL_CATCH_METHOD_AS_TEST_CASE( method, __VA_ARGS__ )
+                                          ^
+/home/saul/play/alien-lisp/tests/catch.hpp:7839:22: warning: anonymous variadic macros were introduced in C99 [-Wvariadic-macros]
+     #define SECTION( ... ) INTERNAL_CATCH_SECTION( __VA_ARGS__ )
+                      ^
+/home/saul/play/alien-lisp/tests/catch.hpp:7859:19: warning: anonymous variadic macros were introduced in C99 [-Wvariadic-macros]
+ #define SCENARIO( ... ) TEST_CASE( "Scenario: " __VA_ARGS__ )
+                   ^
+In file included from /home/saul/play/alien-lisp/tests/linkedlist.cc:28:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::SourceLineInfo::SourceLineInfo()':
+/home/saul/play/alien-lisp/tests/catch.hpp:203:9: warning: 'Catch::SourceLineInfo::file' should be initialized in the member initialization list [-Weffc++]
+         SourceLineInfo() : line( 0 ){}
+         ^
+In file included from /home/saul/play/alien-lisp/tests/linkedlist.cc:28:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::AssertionInfo::AssertionInfo()':
+/home/saul/play/alien-lisp/tests/catch.hpp:942:9: warning: 'Catch::AssertionInfo::macroName' should be initialized in the member initialization list [-Weffc++]
+         AssertionInfo() {}
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp:942:9: warning: 'Catch::AssertionInfo::lineInfo' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:942:9: warning: 'Catch::AssertionInfo::capturedExpression' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:942:9: warning: 'Catch::AssertionInfo::resultDisposition' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::AssertionResultData::AssertionResultData()':
+/home/saul/play/alien-lisp/tests/catch.hpp:956:9: warning: 'Catch::AssertionResultData::reconstructedExpression' should be initialized in the member initialization list [-Weffc++]
+         AssertionResultData() : resultType( ResultWas::Unknown ) {}
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp:956:9: warning: 'Catch::AssertionResultData::message' should be initialized in the member initialization list [-Weffc++]
+In file included from /home/saul/play/alien-lisp/tests/linkedlist.cc:28:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: At global scope:
+/home/saul/play/alien-lisp/tests/catch.hpp:1189:129: warning: user-defined 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionResultBuilder::operator&&(const RhsT&)' always evaluates both arguments [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator && ( RhsT const& );
+                                                                                                                                 ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1190:129: warning: user-defined 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionResultBuilder::operator||(const RhsT&)' always evaluates both arguments [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator || ( RhsT const& );
+                                                                                                                                 ^
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::ExpressionResultBuilder::ExprComponents::ExprComponents()':
+/home/saul/play/alien-lisp/tests/catch.hpp:1195:9: warning: 'Catch::ExpressionResultBuilder::ExprComponents::lhs' should be initialized in the member initialization list [-Weffc++]
+         ExprComponents() : shouldNegate( false ) {}
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1195:9: warning: 'Catch::ExpressionResultBuilder::ExprComponents::rhs' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:1195:9: warning: 'Catch::ExpressionResultBuilder::ExprComponents::op' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp: At global scope:
+/home/saul/play/alien-lisp/tests/catch.hpp:1263:128: warning: 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator+(const RhsT&)' should return by value [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator + ( RhsT const& );
+                                                                                                                                ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1264:128: warning: 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator-(const RhsT&)' should return by value [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator - ( RhsT const& );
+                                                                                                                                ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1265:128: warning: 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator/(const RhsT&)' should return by value [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator / ( RhsT const& );
+                                                                                                                                ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1266:128: warning: 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator*(const RhsT&)' should return by value [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator * ( RhsT const& );
+                                                                                                                                ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1267:129: warning: user-defined 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator&&(const RhsT&)' always evaluates both arguments [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator && ( RhsT const& );
+                                                                                                                                 ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1268:129: warning: user-defined 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator||(const RhsT&)' always evaluates both arguments [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator || ( RhsT const& );
+                                                                                                                                 ^
+/home/saul/play/alien-lisp/tests/catch.hpp: In instantiation of 'class Catch::ExpressionLhs<bool>':
+/home/saul/play/alien-lisp/tests/catch.hpp:1298:52:   required from here
+/home/saul/play/alien-lisp/tests/catch.hpp:1263:103: warning: 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator+(const RhsT&) [with RhsT = RhsT; T = bool]' should return by value [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator + ( RhsT const& );
+                                                                                                       ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1264:103: warning: 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator-(const RhsT&) [with RhsT = RhsT; T = bool]' should return by value [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator - ( RhsT const& );
+                                                                                                       ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1265:103: warning: 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator/(const RhsT&) [with RhsT = RhsT; T = bool]' should return by value [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator / ( RhsT const& );
+                                                                                                       ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1266:103: warning: 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator*(const RhsT&) [with RhsT = RhsT; T = bool]' should return by value [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator * ( RhsT const& );
+                                                                                                       ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1267:103: warning: user-defined 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator&&(const RhsT&) [with RhsT = RhsT; T = bool]' always evaluates both arguments [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator && ( RhsT const& );
+                                                                                                       ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1268:103: warning: user-defined 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator||(const RhsT&) [with RhsT = RhsT; T = bool]' always evaluates both arguments [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator || ( RhsT const& );
+                                                                                                       ^
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::MessageBuilder::MessageBuilder(const string&, const Catch::SourceLineInfo&, Catch::ResultWas::OfType)':
+/home/saul/play/alien-lisp/tests/catch.hpp:1334:9: warning: 'Catch::MessageBuilder::m_stream' should be initialized in the member initialization list [-Weffc++]
+         MessageBuilder( std::string const& macroName,
+         ^
+In file included from /home/saul/play/alien-lisp/tests/linkedlist.cc:28:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::Totals::Totals()':
+/home/saul/play/alien-lisp/tests/catch.hpp:1394:12: warning: 'Catch::Totals::assertions' should be initialized in the member initialization list [-Weffc++]
+     struct Totals {
+            ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1394:12: warning: 'Catch::Totals::testCases' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp: In member function 'Catch::Totals Catch::Totals::operator-(const Catch::Totals&) const':
+/home/saul/play/alien-lisp/tests/catch.hpp:1397:20: note: synthesized method 'Catch::Totals::Totals()' first required here 
+             Totals diff;
+                    ^
+In file included from /home/saul/play/alien-lisp/tests/linkedlist.cc:28:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: At global scope:
+/home/saul/play/alien-lisp/tests/catch.hpp:1609:11: warning: base class 'struct Catch::TestCaseInfo' has a non-virtual destructor [-Weffc++]
+     class TestCase : protected TestCaseInfo {
+           ^
+In file included from /home/saul/play/alien-lisp/tests/linkedlist.cc:28:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::TagExtracter::TagExtracter(std::set<std::basic_string<char> >&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:1697:9: warning: 'Catch::TagExtracter::m_remainder' should be initialized in the member initialization list [-Weffc++]
+         TagExtracter( std::set<std::string>& tags )
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::Tag::Tag()':
+/home/saul/play/alien-lisp/tests/catch.hpp:1723:9: warning: 'Catch::Tag::m_name' should be initialized in the member initialization list [-Weffc++]
+         Tag()
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::TagExpressionParser::TagExpressionParser(Catch::TagExpression&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:1795:9: warning: 'Catch::TagExpressionParser::m_currentTagSet' should be initialized in the member initialization list [-Weffc++]
+         TagExpressionParser( TagExpression& exp )
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::TagSet::TagSet()':
+/home/saul/play/alien-lisp/tests/catch.hpp:1748:11: warning: 'Catch::TagSet::m_tags' should be initialized in the member initialization list [-Weffc++]
+     class TagSet {
+           ^
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::TagExpressionParser::TagExpressionParser(Catch::TagExpression&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:1797:24: note: synthesized method 'Catch::TagSet::TagSet()' first required here 
+             m_exp( exp )
+                        ^
+In file included from /home/saul/play/alien-lisp/tests/linkedlist.cc:28:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::TestCaseFilters::TestCaseFilters(const string&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:1923:9: warning: 'Catch::TestCaseFilters::m_tagExpressions' should be initialized in the member initialization list [-Weffc++]
+         TestCaseFilters( std::string const& name ) : m_name( name ) {}
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1923:9: warning: 'Catch::TestCaseFilters::m_inclusionFilters' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:1923:9: warning: 'Catch::TestCaseFilters::m_exclusionFilters' should be initialized in the member initialization list [-Weffc++]
+In file included from /home/saul/play/alien-lisp/tests/linkedlist.cc:28:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::TagExpression::TagExpression()':
+/home/saul/play/alien-lisp/tests/catch.hpp:1775:11: warning: 'Catch::TagExpression::m_tagSets' should be initialized in the member initialization list [-Weffc++]
+     class TagExpression {
+           ^
+In file included from /home/saul/play/alien-lisp/tests/linkedlist.cc:28:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In member function 'void Catch::TestCaseFilters::addTags(const string&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:1937:27: note: synthesized method 'Catch::TagExpression::TagExpression()' first required here 
+             TagExpression exp;
+                           ^
+In file included from /home/saul/play/alien-lisp/tests/linkedlist.cc:28:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::ConfigData::ConfigData()':
+/home/saul/play/alien-lisp/tests/catch.hpp:2127:9: warning: 'Catch::ConfigData::reporterName' should be initialized in the member initialization list [-Weffc++]
+         ConfigData()
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp:2127:9: warning: 'Catch::ConfigData::outputFilename' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2127:9: warning: 'Catch::ConfigData::name' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2127:9: warning: 'Catch::ConfigData::processName' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2127:9: warning: 'Catch::ConfigData::testsOrTags' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::Config::Config()':
+/home/saul/play/alien-lisp/tests/catch.hpp:2171:9: warning: 'Catch::Config::m_data' should be initialized in the member initialization list [-Weffc++]
+         Config()
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp:2171:9: warning: 'Catch::Config::m_stream' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2171:9: warning: 'Catch::Config::m_filterSets' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::Config::Config(const Catch::ConfigData&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:2175:9: warning: 'Catch::Config::m_stream' should be initialized in the member initialization list [-Weffc++]
+         Config( ConfigData const& data )
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp:2175:9: warning: 'Catch::Config::m_filterSets' should be initialized in the member initialization list [-Weffc++]
+In file included from /home/saul/play/alien-lisp/tests/linkedlist.cc:28:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: At global scope:
+/home/saul/play/alien-lisp/tests/catch.hpp:2340:12: warning: 'struct Catch::ReporterConfig' has pointer data members [-Weffc++]
+     struct ReporterConfig {
+            ^
+/home/saul/play/alien-lisp/tests/catch.hpp:2340:12: warning:   but does not override 'Catch::ReporterConfig(const Catch::ReporterConfig&)' [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2340:12: warning:   or 'operator=(const Catch::ReporterConfig&)' [-Weffc++]
+In file included from /home/saul/play/alien-lisp/tests/linkedlist.cc:28:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::TestGroupStats::TestGroupStats(const Catch::GroupInfo&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:2482:9: warning: 'Catch::TestGroupStats::totals' should be initialized in the member initialization list [-Weffc++]
+         TestGroupStats( GroupInfo const& _groupInfo )
+         ^
+In file included from /home/saul/play/alien-lisp/tests/linkedlist.cc:28:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In instantiation of 'struct Catch::LazyStat<Catch::TestRunInfo>':
+/home/saul/play/alien-lisp/tests/catch.hpp:2582:31:   required from here
+/home/saul/play/alien-lisp/tests/catch.hpp:2364:12: warning: base class 'class Catch::Option<Catch::TestRunInfo>' has a non-virtual destructor [-Weffc++]
+     struct LazyStat : Option<T> {
+            ^
+/home/saul/play/alien-lisp/tests/catch.hpp: In instantiation of 'struct Catch::LazyStat<Catch::GroupInfo>':
+/home/saul/play/alien-lisp/tests/catch.hpp:2583:29:   required from here
+/home/saul/play/alien-lisp/tests/catch.hpp:2364:12: warning: base class 'class Catch::Option<Catch::GroupInfo>' has a non-virtual destructor [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp: In instantiation of 'struct Catch::LazyStat<Catch::TestCaseInfo>':
+/home/saul/play/alien-lisp/tests/catch.hpp:2584:32:   required from here
+/home/saul/play/alien-lisp/tests/catch.hpp:2364:12: warning: base class 'class Catch::Option<Catch::TestCaseInfo>' has a non-virtual destructor [-Weffc++]
+In file included from /home/saul/play/alien-lisp/tests/linkedlist.cc:28:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::StreamingReporterBase::StreamingReporterBase(const Catch::ReporterConfig&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:2540:9: warning: 'Catch::StreamingReporterBase::currentTestRunInfo' should be initialized in the member initialization list [-Weffc++]
+         StreamingReporterBase( ReporterConfig const& _config )
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp:2540:9: warning: 'Catch::StreamingReporterBase::currentGroupInfo' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2540:9: warning: 'Catch::StreamingReporterBase::currentTestCaseInfo' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2540:9: warning: 'Catch::StreamingReporterBase::m_sectionStack' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::CumulativeReporterBase::SectionNode::SectionNode(const Catch::SectionStats&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:2600:22: warning: 'Catch::CumulativeReporterBase::SectionNode::childSections' should be initialized in the member initialization list [-Weffc++]
+             explicit SectionNode( SectionStats const& _stats ) : stats( _stats ) {}
+                      ^
+/home/saul/play/alien-lisp/tests/catch.hpp:2600:22: warning: 'Catch::CumulativeReporterBase::SectionNode::assertions' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2600:22: warning: 'Catch::CumulativeReporterBase::SectionNode::stdOut' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2600:22: warning: 'Catch::CumulativeReporterBase::SectionNode::stdErr' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::CumulativeReporterBase::CumulativeReporterBase(const Catch::ReporterConfig&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:2626:9: warning: 'Catch::CumulativeReporterBase::m_assertions' should be initialized in the member initialization list [-Weffc++]
+         CumulativeReporterBase( ReporterConfig const& _config )
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp:2626:9: warning: 'Catch::CumulativeReporterBase::m_sections' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2626:9: warning: 'Catch::CumulativeReporterBase::m_testCases' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2626:9: warning: 'Catch::CumulativeReporterBase::m_testGroups' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2626:9: warning: 'Catch::CumulativeReporterBase::m_testRuns' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2626:9: warning: 'Catch::CumulativeReporterBase::m_rootSection' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2626:9: warning: 'Catch::CumulativeReporterBase::m_deepestSection' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2626:9: warning: 'Catch::CumulativeReporterBase::m_sectionStack' should be initialized in the member initialization list [-Weffc++]
+In file included from /home/saul/play/alien-lisp/tests/linkedlist.cc:28:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::Section::Section(const Catch::SourceLineInfo&, const string&, const string&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:2973:9: warning: 'Catch::Section::m_name' should be initialized in the member initialization list [-Weffc++]
+         Section(    SourceLineInfo const& lineInfo,
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp:2973:9: warning: 'Catch::Section::m_assertions' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2973:9: warning: 'Catch::Section::m_timer' should be initialized in the member initialization list [-Weffc++]
+In file included from /home/saul/play/alien-lisp/tests/linkedlist.cc:28:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In instantiation of 'class Catch::ExpressionLhs<const int&>':
+/home/saul/play/alien-lisp/tests/linkedlist.cc:47:376:   required from here
+/home/saul/play/alien-lisp/tests/catch.hpp:1263:103: warning: 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator+(const RhsT&) [with RhsT = RhsT; T = const int&]' should return by value [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator + ( RhsT const& );
+                                                                                                       ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1264:103: warning: 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator-(const RhsT&) [with RhsT = RhsT; T = const int&]' should return by value [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator - ( RhsT const& );
+                                                                                                       ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1265:103: warning: 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator/(const RhsT&) [with RhsT = RhsT; T = const int&]' should return by value [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator / ( RhsT const& );
+                                                                                                       ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1266:103: warning: 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator*(const RhsT&) [with RhsT = RhsT; T = const int&]' should return by value [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator * ( RhsT const& );
+                                                                                                       ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1267:103: warning: user-defined 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator&&(const RhsT&) [with RhsT = RhsT; T = const int&]' always evaluates both arguments [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator && ( RhsT const& );
+                                                                                                       ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1268:103: warning: user-defined 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator||(const RhsT&) [with RhsT = RhsT; T = const int&]' always evaluates both arguments [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator || ( RhsT const& );
+                                                                                                       ^
+In file included from /home/saul/play/alien-lisp/tests/linkedlist.cc:28:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In instantiation of 'struct Catch::StringMaker<char>':
+/home/saul/play/alien-lisp/tests/catch.hpp:744:47:   required from 'std::string Catch::Detail::makeString(const T&) [with T = char; std::string = std::basic_string<char>]'
+/home/saul/play/alien-lisp/tests/catch.hpp:824:37:   required from here
+/home/saul/play/alien-lisp/tests/catch.hpp:714:8: warning: base class 'struct Catch::Detail::StringMakerBase<true>' has a non-virtual destructor [-Weffc++]
+ struct StringMaker :
+        ^
+In file included from /home/saul/play/alien-lisp/tests/linkedlist.cc:28:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In instantiation of 'Catch::ExpressionLhs<T>::ExpressionLhs(T) [with T = bool]':
+/home/saul/play/alien-lisp/tests/catch.hpp:1299:43:   required from here
+/home/saul/play/alien-lisp/tests/catch.hpp:1213:5: warning: 'Catch::ExpressionLhs<bool>::m_result' should be initialized in the member initialization list [-Weffc++]
+     ExpressionLhs( T lhs ) : m_lhs( lhs ) {}
+     ^
+In file included from /home/saul/play/alien-lisp/tests/linkedlist.cc:28:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In instantiation of 'Catch::CumulativeReporterBase::Node<T, ChildNodeT>::Node(const T&) [with T = Catch::TestCaseStats; ChildNodeT = Catch::CumulativeReporterBase::SectionNode]':
+/home/saul/play/alien-lisp/tests/catch.hpp:2675:70:   required from here
+/home/saul/play/alien-lisp/tests/catch.hpp:2592:22: warning: 'Catch::CumulativeReporterBase::Node<Catch::TestCaseStats, Catch::CumulativeReporterBase::SectionNode>::children' should be initialized in the member initialization list [-Weffc++]
+             explicit Node( T const& _value ) : value( _value ) {}
+                      ^
+/home/saul/play/alien-lisp/tests/catch.hpp: In instantiation of 'Catch::CumulativeReporterBase::Node<T, ChildNodeT>::Node(const T&) [with T = Catch::TestGroupStats; ChildNodeT = Catch::CumulativeReporterBase::Node<Catch::TestCaseStats, Catch::CumulativeReporterBase::SectionNode>]':
+/home/saul/play/alien-lisp/tests/catch.hpp:2686:73:   required from here
+/home/saul/play/alien-lisp/tests/catch.hpp:2592:22: warning: 'Catch::CumulativeReporterBase::Node<Catch::TestGroupStats, Catch::CumulativeReporterBase::Node<Catch::TestCaseStats, Catch::CumulativeReporterBase::SectionNode> >::children' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp: In instantiation of 'Catch::CumulativeReporterBase::Node<T, ChildNodeT>::Node(const T&) [with T = Catch::TestRunStats; ChildNodeT = Catch::CumulativeReporterBase::Node<Catch::TestGroupStats, Catch::CumulativeReporterBase::Node<Catch::TestCaseStats, Catch::CumulativeReporterBase::SectionNode> >]':
+/home/saul/play/alien-lisp/tests/catch.hpp:2691:67:   required from here
+/home/saul/play/alien-lisp/tests/catch.hpp:2592:22: warning: 'Catch::CumulativeReporterBase::Node<Catch::TestRunStats, Catch::CumulativeReporterBase::Node<Catch::TestGroupStats, Catch::CumulativeReporterBase::Node<Catch::TestCaseStats, Catch::CumulativeReporterBase::SectionNode> > >::children' should be initialized in the member initialization list [-Weffc++]
+In file included from /home/saul/play/alien-lisp/tests/linkedlist.cc:28:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In instantiation of 'Catch::ExpressionLhs<T>::ExpressionLhs(T) [with T = const int&]':
+/home/saul/play/alien-lisp/tests/catch.hpp:1295:49:   required from 'Catch::ExpressionLhs<const T&> Catch::ExpressionDecomposer::operator->*(const T&) [with T = int]'
+/home/saul/play/alien-lisp/tests/linkedlist.cc:47:376:   required from here
+/home/saul/play/alien-lisp/tests/catch.hpp:1213:5: warning: 'Catch::ExpressionLhs<const int&>::m_result' should be initialized in the member initialization list [-Weffc++]
+     ExpressionLhs( T lhs ) : m_lhs( lhs ) {}
+     ^
+[100%] Building CXX object CMakeFiles/tests.dir/tests/nativestack.cc.o
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp:508:38: warning: anonymous variadic macros were introduced in C99 [-Wvariadic-macros]
+     #define INTERNAL_CATCH_TESTCASE( ... ) \
+                                      ^
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp:514:66: warning: anonymous variadic macros were introduced in C99 [-Wvariadic-macros]
+     #define INTERNAL_CATCH_METHOD_AS_TEST_CASE( QualifiedMethod, ... ) \
+                                                                  ^
+/home/saul/play/alien-lisp/tests/catch.hpp:518:57: warning: anonymous variadic macros were introduced in C99 [-Wvariadic-macros]
+     #define INTERNAL_CATCH_TEST_CASE_METHOD( ClassName, ... )\
+                                                         ^
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp:3004:37: warning: anonymous variadic macros were introduced in C99 [-Wvariadic-macros]
+     #define INTERNAL_CATCH_SECTION( ... ) \
+                                     ^
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp:7836:24: warning: anonymous variadic macros were introduced in C99 [-Wvariadic-macros]
+     #define TEST_CASE( ... ) INTERNAL_CATCH_TESTCASE( __VA_ARGS__ )
+                        ^
+/home/saul/play/alien-lisp/tests/catch.hpp:7837:42: warning: anonymous variadic macros were introduced in C99 [-Wvariadic-macros]
+     #define TEST_CASE_METHOD( className, ... ) INTERNAL_CATCH_TEST_CASE_METHOD( className, __VA_ARGS__ )
+                                          ^
+/home/saul/play/alien-lisp/tests/catch.hpp:7838:42: warning: anonymous variadic macros were introduced in C99 [-Wvariadic-macros]
+     #define METHOD_AS_TEST_CASE( method, ... ) INTERNAL_CATCH_METHOD_AS_TEST_CASE( method, __VA_ARGS__ )
+                                          ^
+/home/saul/play/alien-lisp/tests/catch.hpp:7839:22: warning: anonymous variadic macros were introduced in C99 [-Wvariadic-macros]
+     #define SECTION( ... ) INTERNAL_CATCH_SECTION( __VA_ARGS__ )
+                      ^
+/home/saul/play/alien-lisp/tests/catch.hpp:7859:19: warning: anonymous variadic macros were introduced in C99 [-Wvariadic-macros]
+ #define SCENARIO( ... ) TEST_CASE( "Scenario: " __VA_ARGS__ )
+                   ^
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp:6631:41: warning: use of C++0x long long integer constant [-Wlong-long]
+             return (uint64_t)t.tv_sec * 1000000ull + (uint64_t)t.tv_usec;
+                                         ^
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::SourceLineInfo::SourceLineInfo()':
+/home/saul/play/alien-lisp/tests/catch.hpp:203:9: warning: 'Catch::SourceLineInfo::file' should be initialized in the member initialization list [-Weffc++]
+         SourceLineInfo() : line( 0 ){}
+         ^
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::AssertionInfo::AssertionInfo()':
+/home/saul/play/alien-lisp/tests/catch.hpp:942:9: warning: 'Catch::AssertionInfo::macroName' should be initialized in the member initialization list [-Weffc++]
+         AssertionInfo() {}
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp:942:9: warning: 'Catch::AssertionInfo::lineInfo' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:942:9: warning: 'Catch::AssertionInfo::capturedExpression' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:942:9: warning: 'Catch::AssertionInfo::resultDisposition' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::AssertionResultData::AssertionResultData()':
+/home/saul/play/alien-lisp/tests/catch.hpp:956:9: warning: 'Catch::AssertionResultData::reconstructedExpression' should be initialized in the member initialization list [-Weffc++]
+         AssertionResultData() : resultType( ResultWas::Unknown ) {}
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp:956:9: warning: 'Catch::AssertionResultData::message' should be initialized in the member initialization list [-Weffc++]
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: At global scope:
+/home/saul/play/alien-lisp/tests/catch.hpp:1189:129: warning: user-defined 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionResultBuilder::operator&&(const RhsT&)' always evaluates both arguments [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator && ( RhsT const& );
+                                                                                                                                 ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1190:129: warning: user-defined 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionResultBuilder::operator||(const RhsT&)' always evaluates both arguments [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator || ( RhsT const& );
+                                                                                                                                 ^
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::ExpressionResultBuilder::ExprComponents::ExprComponents()':
+/home/saul/play/alien-lisp/tests/catch.hpp:1195:9: warning: 'Catch::ExpressionResultBuilder::ExprComponents::lhs' should be initialized in the member initialization list [-Weffc++]
+         ExprComponents() : shouldNegate( false ) {}
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1195:9: warning: 'Catch::ExpressionResultBuilder::ExprComponents::rhs' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:1195:9: warning: 'Catch::ExpressionResultBuilder::ExprComponents::op' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp: At global scope:
+/home/saul/play/alien-lisp/tests/catch.hpp:1263:128: warning: 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator+(const RhsT&)' should return by value [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator + ( RhsT const& );
+                                                                                                                                ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1264:128: warning: 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator-(const RhsT&)' should return by value [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator - ( RhsT const& );
+                                                                                                                                ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1265:128: warning: 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator/(const RhsT&)' should return by value [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator / ( RhsT const& );
+                                                                                                                                ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1266:128: warning: 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator*(const RhsT&)' should return by value [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator * ( RhsT const& );
+                                                                                                                                ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1267:129: warning: user-defined 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator&&(const RhsT&)' always evaluates both arguments [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator && ( RhsT const& );
+                                                                                                                                 ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1268:129: warning: user-defined 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator||(const RhsT&)' always evaluates both arguments [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator || ( RhsT const& );
+                                                                                                                                 ^
+/home/saul/play/alien-lisp/tests/catch.hpp: In instantiation of 'class Catch::ExpressionLhs<bool>':
+/home/saul/play/alien-lisp/tests/catch.hpp:1298:52:   required from here
+/home/saul/play/alien-lisp/tests/catch.hpp:1263:103: warning: 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator+(const RhsT&) [with RhsT = RhsT; T = bool]' should return by value [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator + ( RhsT const& );
+                                                                                                       ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1264:103: warning: 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator-(const RhsT&) [with RhsT = RhsT; T = bool]' should return by value [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator - ( RhsT const& );
+                                                                                                       ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1265:103: warning: 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator/(const RhsT&) [with RhsT = RhsT; T = bool]' should return by value [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator / ( RhsT const& );
+                                                                                                       ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1266:103: warning: 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator*(const RhsT&) [with RhsT = RhsT; T = bool]' should return by value [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator * ( RhsT const& );
+                                                                                                       ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1267:103: warning: user-defined 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator&&(const RhsT&) [with RhsT = RhsT; T = bool]' always evaluates both arguments [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator && ( RhsT const& );
+                                                                                                       ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1268:103: warning: user-defined 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator||(const RhsT&) [with RhsT = RhsT; T = bool]' always evaluates both arguments [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator || ( RhsT const& );
+                                                                                                       ^
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::MessageBuilder::MessageBuilder(const string&, const Catch::SourceLineInfo&, Catch::ResultWas::OfType)':
+/home/saul/play/alien-lisp/tests/catch.hpp:1334:9: warning: 'Catch::MessageBuilder::m_stream' should be initialized in the member initialization list [-Weffc++]
+         MessageBuilder( std::string const& macroName,
+         ^
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::Totals::Totals()':
+/home/saul/play/alien-lisp/tests/catch.hpp:1394:12: warning: 'Catch::Totals::assertions' should be initialized in the member initialization list [-Weffc++]
+     struct Totals {
+            ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1394:12: warning: 'Catch::Totals::testCases' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp: In member function 'Catch::Totals Catch::Totals::operator-(const Catch::Totals&) const':
+/home/saul/play/alien-lisp/tests/catch.hpp:1397:20: note: synthesized method 'Catch::Totals::Totals()' first required here 
+             Totals diff;
+                    ^
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: At global scope:
+/home/saul/play/alien-lisp/tests/catch.hpp:1609:11: warning: base class 'struct Catch::TestCaseInfo' has a non-virtual destructor [-Weffc++]
+     class TestCase : protected TestCaseInfo {
+           ^
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::TagExtracter::TagExtracter(std::set<std::basic_string<char> >&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:1697:9: warning: 'Catch::TagExtracter::m_remainder' should be initialized in the member initialization list [-Weffc++]
+         TagExtracter( std::set<std::string>& tags )
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::Tag::Tag()':
+/home/saul/play/alien-lisp/tests/catch.hpp:1723:9: warning: 'Catch::Tag::m_name' should be initialized in the member initialization list [-Weffc++]
+         Tag()
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::TagExpressionParser::TagExpressionParser(Catch::TagExpression&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:1795:9: warning: 'Catch::TagExpressionParser::m_currentTagSet' should be initialized in the member initialization list [-Weffc++]
+         TagExpressionParser( TagExpression& exp )
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::TagSet::TagSet()':
+/home/saul/play/alien-lisp/tests/catch.hpp:1748:11: warning: 'Catch::TagSet::m_tags' should be initialized in the member initialization list [-Weffc++]
+     class TagSet {
+           ^
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::TagExpressionParser::TagExpressionParser(Catch::TagExpression&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:1797:24: note: synthesized method 'Catch::TagSet::TagSet()' first required here 
+             m_exp( exp )
+                        ^
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::TestCaseFilters::TestCaseFilters(const string&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:1923:9: warning: 'Catch::TestCaseFilters::m_tagExpressions' should be initialized in the member initialization list [-Weffc++]
+         TestCaseFilters( std::string const& name ) : m_name( name ) {}
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1923:9: warning: 'Catch::TestCaseFilters::m_inclusionFilters' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:1923:9: warning: 'Catch::TestCaseFilters::m_exclusionFilters' should be initialized in the member initialization list [-Weffc++]
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::TagExpression::TagExpression()':
+/home/saul/play/alien-lisp/tests/catch.hpp:1775:11: warning: 'Catch::TagExpression::m_tagSets' should be initialized in the member initialization list [-Weffc++]
+     class TagExpression {
+           ^
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In member function 'void Catch::TestCaseFilters::addTags(const string&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:1937:27: note: synthesized method 'Catch::TagExpression::TagExpression()' first required here 
+             TagExpression exp;
+                           ^
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::ConfigData::ConfigData()':
+/home/saul/play/alien-lisp/tests/catch.hpp:2127:9: warning: 'Catch::ConfigData::reporterName' should be initialized in the member initialization list [-Weffc++]
+         ConfigData()
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp:2127:9: warning: 'Catch::ConfigData::outputFilename' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2127:9: warning: 'Catch::ConfigData::name' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2127:9: warning: 'Catch::ConfigData::processName' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2127:9: warning: 'Catch::ConfigData::testsOrTags' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::Config::Config()':
+/home/saul/play/alien-lisp/tests/catch.hpp:2171:9: warning: 'Catch::Config::m_data' should be initialized in the member initialization list [-Weffc++]
+         Config()
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp:2171:9: warning: 'Catch::Config::m_stream' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2171:9: warning: 'Catch::Config::m_filterSets' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::Config::Config(const Catch::ConfigData&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:2175:9: warning: 'Catch::Config::m_stream' should be initialized in the member initialization list [-Weffc++]
+         Config( ConfigData const& data )
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp:2175:9: warning: 'Catch::Config::m_filterSets' should be initialized in the member initialization list [-Weffc++]
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: At global scope:
+/home/saul/play/alien-lisp/tests/catch.hpp:2340:12: warning: 'struct Catch::ReporterConfig' has pointer data members [-Weffc++]
+     struct ReporterConfig {
+            ^
+/home/saul/play/alien-lisp/tests/catch.hpp:2340:12: warning:   but does not override 'Catch::ReporterConfig(const Catch::ReporterConfig&)' [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2340:12: warning:   or 'operator=(const Catch::ReporterConfig&)' [-Weffc++]
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::TestGroupStats::TestGroupStats(const Catch::GroupInfo&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:2482:9: warning: 'Catch::TestGroupStats::totals' should be initialized in the member initialization list [-Weffc++]
+         TestGroupStats( GroupInfo const& _groupInfo )
+         ^
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In instantiation of 'struct Catch::LazyStat<Catch::TestRunInfo>':
+/home/saul/play/alien-lisp/tests/catch.hpp:2582:31:   required from here
+/home/saul/play/alien-lisp/tests/catch.hpp:2364:12: warning: base class 'class Catch::Option<Catch::TestRunInfo>' has a non-virtual destructor [-Weffc++]
+     struct LazyStat : Option<T> {
+            ^
+/home/saul/play/alien-lisp/tests/catch.hpp: In instantiation of 'struct Catch::LazyStat<Catch::GroupInfo>':
+/home/saul/play/alien-lisp/tests/catch.hpp:2583:29:   required from here
+/home/saul/play/alien-lisp/tests/catch.hpp:2364:12: warning: base class 'class Catch::Option<Catch::GroupInfo>' has a non-virtual destructor [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp: In instantiation of 'struct Catch::LazyStat<Catch::TestCaseInfo>':
+/home/saul/play/alien-lisp/tests/catch.hpp:2584:32:   required from here
+/home/saul/play/alien-lisp/tests/catch.hpp:2364:12: warning: base class 'class Catch::Option<Catch::TestCaseInfo>' has a non-virtual destructor [-Weffc++]
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::StreamingReporterBase::StreamingReporterBase(const Catch::ReporterConfig&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:2540:9: warning: 'Catch::StreamingReporterBase::currentTestRunInfo' should be initialized in the member initialization list [-Weffc++]
+         StreamingReporterBase( ReporterConfig const& _config )
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp:2540:9: warning: 'Catch::StreamingReporterBase::currentGroupInfo' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2540:9: warning: 'Catch::StreamingReporterBase::currentTestCaseInfo' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2540:9: warning: 'Catch::StreamingReporterBase::m_sectionStack' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::CumulativeReporterBase::SectionNode::SectionNode(const Catch::SectionStats&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:2600:22: warning: 'Catch::CumulativeReporterBase::SectionNode::childSections' should be initialized in the member initialization list [-Weffc++]
+             explicit SectionNode( SectionStats const& _stats ) : stats( _stats ) {}
+                      ^
+/home/saul/play/alien-lisp/tests/catch.hpp:2600:22: warning: 'Catch::CumulativeReporterBase::SectionNode::assertions' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2600:22: warning: 'Catch::CumulativeReporterBase::SectionNode::stdOut' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2600:22: warning: 'Catch::CumulativeReporterBase::SectionNode::stdErr' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::CumulativeReporterBase::CumulativeReporterBase(const Catch::ReporterConfig&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:2626:9: warning: 'Catch::CumulativeReporterBase::m_assertions' should be initialized in the member initialization list [-Weffc++]
+         CumulativeReporterBase( ReporterConfig const& _config )
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp:2626:9: warning: 'Catch::CumulativeReporterBase::m_sections' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2626:9: warning: 'Catch::CumulativeReporterBase::m_testCases' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2626:9: warning: 'Catch::CumulativeReporterBase::m_testGroups' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2626:9: warning: 'Catch::CumulativeReporterBase::m_testRuns' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2626:9: warning: 'Catch::CumulativeReporterBase::m_rootSection' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2626:9: warning: 'Catch::CumulativeReporterBase::m_deepestSection' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2626:9: warning: 'Catch::CumulativeReporterBase::m_sectionStack' should be initialized in the member initialization list [-Weffc++]
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::Section::Section(const Catch::SourceLineInfo&, const string&, const string&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:2973:9: warning: 'Catch::Section::m_name' should be initialized in the member initialization list [-Weffc++]
+         Section(    SourceLineInfo const& lineInfo,
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp:2973:9: warning: 'Catch::Section::m_assertions' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:2973:9: warning: 'Catch::Section::m_timer' should be initialized in the member initialization list [-Weffc++]
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In instantiation of 'class Clara::CommandLine<Catch::ConfigData>::ArgBinder':
+/home/saul/play/alien-lisp/tests/catch.hpp:4411:41:   required from here
+/home/saul/play/alien-lisp/tests/catch.hpp:4134:15: warning: 'class Clara::CommandLine<Catch::ConfigData>::ArgBinder' has pointer data members [-Weffc++]
+         class ArgBinder {
+               ^
+/home/saul/play/alien-lisp/tests/catch.hpp:4134:15: warning:   but does not override 'operator=(const Clara::CommandLine<Catch::ConfigData>::ArgBinder&)' [-Weffc++]
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: At global scope:
+/home/saul/play/alien-lisp/tests/catch.hpp:4758:11: warning: 'class Catch::SectionTracking::TrackedSection' has pointer data members [-Weffc++]
+     class TrackedSection {
+           ^
+/home/saul/play/alien-lisp/tests/catch.hpp:4758:11: warning:   but does not override 'Catch::SectionTracking::TrackedSection(const Catch::SectionTracking::TrackedSection&)' [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:4758:11: warning:   or 'operator=(const Catch::SectionTracking::TrackedSection&)' [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::SectionTracking::TrackedSection::TrackedSection(const string&, Catch::SectionTracking::TrackedSection*)':
+/home/saul/play/alien-lisp/tests/catch.hpp:4770:9: warning: 'Catch::SectionTracking::TrackedSection::m_children' should be initialized in the member initialization list [-Weffc++]
+         TrackedSection( std::string const& name, TrackedSection* parent )
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp: At global scope:
+/home/saul/play/alien-lisp/tests/catch.hpp:4812:11: warning: 'class Catch::SectionTracking::TestCaseTracker' has pointer data members [-Weffc++]
+     class TestCaseTracker {
+           ^
+/home/saul/play/alien-lisp/tests/catch.hpp:4812:11: warning:   but does not override 'Catch::SectionTracking::TestCaseTracker(const Catch::SectionTracking::TestCaseTracker&)' [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:4812:11: warning:   or 'operator=(const Catch::SectionTracking::TestCaseTracker&)' [-Weffc++]
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp:4893:11: warning: 'class Catch::StreamRedirect' has pointer data members [-Weffc++]
+     class StreamRedirect {
+           ^
+/home/saul/play/alien-lisp/tests/catch.hpp:4893:11: warning:   but does not override 'Catch::StreamRedirect(const Catch::StreamRedirect&)' [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:4893:11: warning:   or 'operator=(const Catch::StreamRedirect&)' [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::StreamRedirect::StreamRedirect(std::ostream&, std::string&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:4896:9: warning: 'Catch::StreamRedirect::m_oss' should be initialized in the member initialization list [-Weffc++]
+         StreamRedirect( std::ostream& stream, std::string& targetString )
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::RunContext::RunContext(const Catch::Ptr<const Catch::IConfig>&, const Catch::Ptr<Catch::IStreamingReporter>&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:4925:18: warning: 'Catch::RunContext::m_testCaseTracker' should be initialized in the member initialization list [-Weffc++]
+         explicit RunContext( Ptr<IConfig const> const& config, Ptr<IStreamingReporter> const& reporter )
+                  ^
+/home/saul/play/alien-lisp/tests/catch.hpp:4925:18: warning: 'Catch::RunContext::m_lastResult' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:4925:18: warning: 'Catch::RunContext::m_totals' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:4925:18: warning: 'Catch::RunContext::m_messages' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:4925:18: warning: 'Catch::RunContext::m_lastAssertionInfo' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:4925:18: warning: 'Catch::RunContext::m_unfinishedSections' should be initialized in the member initialization list [-Weffc++]
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::Runner::Runner(const Catch::Ptr<Catch::Config>&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:5239:9: warning: 'Catch::Runner::m_ofs' should be initialized in the member initialization list [-Weffc++]
+         Runner( Ptr<Config> const& config )
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp:5239:9: warning: 'Catch::Runner::m_reporter' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:5239:9: warning: 'Catch::Runner::m_testsAlreadyRun' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::Session::Session()':
+/home/saul/play/alien-lisp/tests/catch.hpp:5330:9: warning: 'Catch::Session::m_unusedTokens' should be initialized in the member initialization list [-Weffc++]
+         Session()
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp:5330:9: warning: 'Catch::Session::m_configData' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:5330:9: warning: 'Catch::Session::m_config' should be initialized in the member initialization list [-Weffc++]
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::TestRegistry::TestRegistry()':
+/home/saul/play/alien-lisp/tests/catch.hpp:5464:9: warning: 'Catch::TestRegistry::m_functions' should be initialized in the member initialization list [-Weffc++]
+         TestRegistry() : m_unnamedCount( 0 ) {}
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp:5464:9: warning: 'Catch::TestRegistry::m_functionsInOrder' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:5464:9: warning: 'Catch::TestRegistry::m_nonHiddenFunctions' should be initialized in the member initialization list [-Weffc++]
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::{anonymous}::RegistryHub::RegistryHub()':
+/home/saul/play/alien-lisp/tests/catch.hpp:5698:13: warning: 'Catch::{anonymous}::RegistryHub::m_testCaseRegistry' should be initialized in the member initialization list [-Weffc++]
+             RegistryHub() {
+             ^
+/home/saul/play/alien-lisp/tests/catch.hpp:5698:13: warning: 'Catch::{anonymous}::RegistryHub::m_reporterRegistry' should be initialized in the member initialization list [-Weffc++]
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::ReporterRegistry::ReporterRegistry()':
+/home/saul/play/alien-lisp/tests/catch.hpp:5596:11: warning: 'Catch::ReporterRegistry::m_factories' should be initialized in the member initialization list [-Weffc++]
+     class ReporterRegistry : public IReporterRegistry {
+           ^
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::{anonymous}::RegistryHub::RegistryHub()':
+/home/saul/play/alien-lisp/tests/catch.hpp:5698:27: note: synthesized method 'Catch::ReporterRegistry::ReporterRegistry()' first required here 
+             RegistryHub() {
+                           ^
+/home/saul/play/alien-lisp/tests/catch.hpp:5698:13: warning: 'Catch::{anonymous}::RegistryHub::m_exceptionTranslatorRegistry' should be initialized in the member initialization list [-Weffc++]
+             RegistryHub() {
+             ^
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::ExceptionTranslatorRegistry::ExceptionTranslatorRegistry()':
+/home/saul/play/alien-lisp/tests/catch.hpp:5633:11: warning: 'Catch::ExceptionTranslatorRegistry::m_translators' should be initialized in the member initialization list [-Weffc++]
+     class ExceptionTranslatorRegistry : public IExceptionTranslatorRegistry {
+           ^
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::{anonymous}::RegistryHub::RegistryHub()':
+/home/saul/play/alien-lisp/tests/catch.hpp:5698:27: note: synthesized method 'Catch::ExceptionTranslatorRegistry::ExceptionTranslatorRegistry()' first required here 
+             RegistryHub() {
+                           ^
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::NotImplementedException::NotImplementedException(const Catch::SourceLineInfo&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:5760:5: warning: 'Catch::NotImplementedException::m_what' should be initialized in the member initialization list [-Weffc++]
+     NotImplementedException::NotImplementedException( SourceLineInfo const& lineInfo )
+     ^
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::Context::Context()':
+/home/saul/play/alien-lisp/tests/catch.hpp:5781:9: warning: 'Catch::Context::m_generatorsByTestName' should be initialized in the member initialization list [-Weffc++]
+         Context() : m_config( NULL ), m_runner( NULL ), m_resultCapture( NULL ) {}
+         ^
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::GeneratorsForTest::GeneratorsForTest()':
+/home/saul/play/alien-lisp/tests/catch.hpp:6050:11: warning: 'Catch::GeneratorsForTest::m_generatorsByName' should be initialized in the member initialization list [-Weffc++]
+     class GeneratorsForTest : public IGeneratorsForTest {
+           ^
+/home/saul/play/alien-lisp/tests/catch.hpp:6050:11: warning: 'Catch::GeneratorsForTest::m_generatorsInOrder' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp: In function 'Catch::IGeneratorsForTest* Catch::createGeneratorsForTest()':
+/home/saul/play/alien-lisp/tests/catch.hpp:6085:38: note: synthesized method 'Catch::GeneratorsForTest::GeneratorsForTest()' first required here 
+         return new GeneratorsForTest();
+                                      ^
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::AssertionResult::AssertionResult()':
+/home/saul/play/alien-lisp/tests/catch.hpp:6105:5: warning: 'Catch::AssertionResult::m_info' should be initialized in the member initialization list [-Weffc++]
+     AssertionResult::AssertionResult() {}
+     ^
+/home/saul/play/alien-lisp/tests/catch.hpp:6105:5: warning: 'Catch::AssertionResult::m_resultData' should be initialized in the member initialization list [-Weffc++]
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::ExpressionResultBuilder::ExpressionResultBuilder(Catch::ResultWas::OfType)':
+/home/saul/play/alien-lisp/tests/catch.hpp:6177:5: warning: 'Catch::ExpressionResultBuilder::m_data' should be initialized in the member initialization list [-Weffc++]
+     ExpressionResultBuilder::ExpressionResultBuilder( ResultWas::OfType resultType ) {
+     ^
+/home/saul/play/alien-lisp/tests/catch.hpp:6177:5: warning: 'Catch::ExpressionResultBuilder::m_exprComponents' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:6177:5: warning: 'Catch::ExpressionResultBuilder::m_stream' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp: In copy constructor 'Catch::ExpressionResultBuilder::ExpressionResultBuilder(const Catch::ExpressionResultBuilder&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:6180:5: warning: 'Catch::ExpressionResultBuilder::m_stream' should be initialized in the member initialization list [-Weffc++]
+     ExpressionResultBuilder::ExpressionResultBuilder( ExpressionResultBuilder const& other )
+     ^
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::TestCaseInfo::TestCaseInfo(const string&, const string&, const string&, const std::set<std::basic_string<char> >&, bool, const Catch::SourceLineInfo&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:6280:5: warning: 'Catch::TestCaseInfo::tagsAsString' should be initialized in the member initialization list [-Weffc++]
+     TestCaseInfo::TestCaseInfo( std::string const& _name,
+     ^
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::Text::Text(const string&, const Catch::TextAttributes&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:6389:5: warning: 'Catch::Text::str' should be initialized in the member initialization list [-Weffc++]
+     Text::Text( std::string const& _str, TextAttributes const& _attr )
+     ^
+/home/saul/play/alien-lisp/tests/catch.hpp:6389:5: warning: 'Catch::Text::lines' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::MessageInfo::MessageInfo(const string&, const Catch::SourceLineInfo&, Catch::ResultWas::OfType)':
+/home/saul/play/alien-lisp/tests/catch.hpp:6473:5: warning: 'Catch::MessageInfo::message' should be initialized in the member initialization list [-Weffc++]
+     MessageInfo::MessageInfo(   std::string const& _macroName,
+     ^
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: At global scope:
+/home/saul/play/alien-lisp/tests/catch.hpp:6733:15: warning: 'class Catch::XmlWriter::ScopedElement' has pointer data members [-Weffc++]
+         class ScopedElement {
+               ^
+/home/saul/play/alien-lisp/tests/catch.hpp:6733:15: warning:   but does not override 'operator=(const Catch::XmlWriter::ScopedElement&)' [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:6730:11: warning: 'class Catch::XmlWriter' has pointer data members [-Weffc++]
+     class XmlWriter {
+           ^
+/home/saul/play/alien-lisp/tests/catch.hpp:6730:11: warning:   but does not override 'Catch::XmlWriter(const Catch::XmlWriter&)' [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::XmlWriter::XmlWriter()':
+/home/saul/play/alien-lisp/tests/catch.hpp:6764:9: warning: 'Catch::XmlWriter::m_tags' should be initialized in the member initialization list [-Weffc++]
+         XmlWriter()
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp:6764:9: warning: 'Catch::XmlWriter::m_indent' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::XmlWriter::XmlWriter(std::ostream&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:6770:9: warning: 'Catch::XmlWriter::m_tags' should be initialized in the member initialization list [-Weffc++]
+         XmlWriter( std::ostream& os )
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp:6770:9: warning: 'Catch::XmlWriter::m_indent' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::XmlReporter::XmlReporter(const Catch::ReporterConfig&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:6926:9: warning: 'Catch::XmlReporter::m_currentTestSuccess' should be initialized in the member initialization list [-Weffc++]
+         XmlReporter( ReporterConfig const& config ) : m_config( config ), m_sectionDepth( 0 ) {}
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp:6926:9: warning: 'Catch::XmlReporter::m_xml' should be initialized in the member initialization list [-Weffc++]
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::JunitReporter::JunitReporter(const Catch::ReporterConfig&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:7066:9: warning: 'Catch::JunitReporter::suiteTimer' should be initialized in the member initialization list [-Weffc++]
+         JunitReporter( ReporterConfig const& _config )
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp:7066:9: warning: 'Catch::JunitReporter::stdOutForSuite' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:7066:9: warning: 'Catch::JunitReporter::stdErrForSuite' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:7066:9: warning: 'Catch::JunitReporter::unexpectedExceptions' should be initialized in the member initialization list [-Weffc++]
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In constructor 'Catch::ConsoleReporter::AssertionPrinter::AssertionPrinter(std::ostream&, const Catch::AssertionStats&)':
+/home/saul/play/alien-lisp/tests/catch.hpp:7365:13: warning: 'Catch::ConsoleReporter::AssertionPrinter::passOrFail' should be initialized in the member initialization list [-Weffc++]
+             AssertionPrinter( std::ostream& _stream, AssertionStats const& _stats )
+             ^
+/home/saul/play/alien-lisp/tests/catch.hpp:7365:13: warning: 'Catch::ConsoleReporter::AssertionPrinter::messageLabel' should be initialized in the member initialization list [-Weffc++]
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In instantiation of 'class Catch::ExpressionLhs<void* const&>':
+/home/saul/play/alien-lisp/tests/nativestack.cc:55:363:   required from here
+/home/saul/play/alien-lisp/tests/catch.hpp:1263:103: warning: 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator+(const RhsT&) [with RhsT = RhsT; T = void* const&]' should return by value [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator + ( RhsT const& );
+                                                                                                       ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1264:103: warning: 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator-(const RhsT&) [with RhsT = RhsT; T = void* const&]' should return by value [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator - ( RhsT const& );
+                                                                                                       ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1265:103: warning: 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator/(const RhsT&) [with RhsT = RhsT; T = void* const&]' should return by value [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator / ( RhsT const& );
+                                                                                                       ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1266:103: warning: 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator*(const RhsT&) [with RhsT = RhsT; T = void* const&]' should return by value [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator * ( RhsT const& );
+                                                                                                       ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1267:103: warning: user-defined 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator&&(const RhsT&) [with RhsT = RhsT; T = void* const&]' always evaluates both arguments [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator && ( RhsT const& );
+                                                                                                       ^
+/home/saul/play/alien-lisp/tests/catch.hpp:1268:103: warning: user-defined 'Catch::STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& Catch::ExpressionLhs<T>::operator||(const RhsT&) [with RhsT = RhsT; T = void* const&]' always evaluates both arguments [-Weffc++]
+     template<typename RhsT> STATIC_ASSERT_Expression_Too_Complex_Please_Rewrite_As_Binary_Comparison& operator || ( RhsT const& );
+                                                                                                       ^
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In instantiation of 'struct Catch::StringMaker<char>':
+/home/saul/play/alien-lisp/tests/catch.hpp:744:47:   required from 'std::string Catch::Detail::makeString(const T&) [with T = char; std::string = std::basic_string<char>]'
+/home/saul/play/alien-lisp/tests/catch.hpp:824:37:   required from here
+/home/saul/play/alien-lisp/tests/catch.hpp:714:8: warning: base class 'struct Catch::Detail::StringMakerBase<true>' has a non-virtual destructor [-Weffc++]
+ struct StringMaker :
+        ^
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In instantiation of 'Catch::ExpressionLhs<T>::ExpressionLhs(T) [with T = bool]':
+/home/saul/play/alien-lisp/tests/catch.hpp:1299:43:   required from here
+/home/saul/play/alien-lisp/tests/catch.hpp:1213:5: warning: 'Catch::ExpressionLhs<bool>::m_result' should be initialized in the member initialization list [-Weffc++]
+     ExpressionLhs( T lhs ) : m_lhs( lhs ) {}
+     ^
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In instantiation of 'Catch::CumulativeReporterBase::Node<T, ChildNodeT>::Node(const T&) [with T = Catch::TestCaseStats; ChildNodeT = Catch::CumulativeReporterBase::SectionNode]':
+/home/saul/play/alien-lisp/tests/catch.hpp:2675:70:   required from here
+/home/saul/play/alien-lisp/tests/catch.hpp:2592:22: warning: 'Catch::CumulativeReporterBase::Node<Catch::TestCaseStats, Catch::CumulativeReporterBase::SectionNode>::children' should be initialized in the member initialization list [-Weffc++]
+             explicit Node( T const& _value ) : value( _value ) {}
+                      ^
+/home/saul/play/alien-lisp/tests/catch.hpp: In instantiation of 'Catch::CumulativeReporterBase::Node<T, ChildNodeT>::Node(const T&) [with T = Catch::TestGroupStats; ChildNodeT = Catch::CumulativeReporterBase::Node<Catch::TestCaseStats, Catch::CumulativeReporterBase::SectionNode>]':
+/home/saul/play/alien-lisp/tests/catch.hpp:2686:73:   required from here
+/home/saul/play/alien-lisp/tests/catch.hpp:2592:22: warning: 'Catch::CumulativeReporterBase::Node<Catch::TestGroupStats, Catch::CumulativeReporterBase::Node<Catch::TestCaseStats, Catch::CumulativeReporterBase::SectionNode> >::children' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp: In instantiation of 'Catch::CumulativeReporterBase::Node<T, ChildNodeT>::Node(const T&) [with T = Catch::TestRunStats; ChildNodeT = Catch::CumulativeReporterBase::Node<Catch::TestGroupStats, Catch::CumulativeReporterBase::Node<Catch::TestCaseStats, Catch::CumulativeReporterBase::SectionNode> >]':
+/home/saul/play/alien-lisp/tests/catch.hpp:2691:67:   required from here
+/home/saul/play/alien-lisp/tests/catch.hpp:2592:22: warning: 'Catch::CumulativeReporterBase::Node<Catch::TestRunStats, Catch::CumulativeReporterBase::Node<Catch::TestGroupStats, Catch::CumulativeReporterBase::Node<Catch::TestCaseStats, Catch::CumulativeReporterBase::SectionNode> > >::children' should be initialized in the member initialization list [-Weffc++]
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In instantiation of 'Clara::CommandLine<ConfigT>::CommandLine() [with ConfigT = Catch::ConfigData]':
+/home/saul/play/alien-lisp/tests/catch.hpp:4407:40:   required from here
+/home/saul/play/alien-lisp/tests/catch.hpp:4191:9: warning: 'Clara::CommandLine<Catch::ConfigData>::m_options' should be initialized in the member initialization list [-Weffc++]
+         CommandLine()
+         ^
+/home/saul/play/alien-lisp/tests/catch.hpp:4191:9: warning: 'Clara::CommandLine<Catch::ConfigData>::m_positionalArgs' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:4191:9: warning: 'Clara::CommandLine<Catch::ConfigData>::m_arg' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp: In instantiation of 'Clara::CommandLine<ConfigT>::CommandLine(const Clara::CommandLine<ConfigT>&) [with ConfigT = Catch::ConfigData]':
+/home/saul/play/alien-lisp/tests/catch.hpp:4498:16:   required from here
+/home/saul/play/alien-lisp/tests/catch.hpp:4195:9: warning: 'Clara::CommandLine<Catch::ConfigData>::m_arg' should be initialized in the member initialization list [-Weffc++]
+         CommandLine( CommandLine const& other )
+         ^
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In instantiation of 'Catch::StreamBufImpl<WriterF, bufferSize>::StreamBufImpl() [with WriterF = Catch::OutputDebugWriter; long unsigned int bufferSize = 256ul]':
+/home/saul/play/alien-lisp/tests/catch.hpp:5862:56:   required from here
+/home/saul/play/alien-lisp/tests/catch.hpp:2050:9: warning: 'Catch::StreamBufImpl<Catch::OutputDebugWriter>::m_writer' should be initialized in the member initialization list [-Weffc++]
+         StreamBufImpl() {
+         ^
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In instantiation of 'Catch::ExpressionLhs<T>::ExpressionLhs(T) [with T = void* const&]':
+/home/saul/play/alien-lisp/tests/catch.hpp:1295:49:   required from 'Catch::ExpressionLhs<const T&> Catch::ExpressionDecomposer::operator->*(const T&) [with T = void*]'
+/home/saul/play/alien-lisp/tests/nativestack.cc:55:363:   required from here
+/home/saul/play/alien-lisp/tests/catch.hpp:1213:5: warning: 'Catch::ExpressionLhs<void* const&>::m_result' should be initialized in the member initialization list [-Weffc++]
+     ExpressionLhs( T lhs ) : m_lhs( lhs ) {}
+     ^
+In file included from /home/saul/play/alien-lisp/tests/nativestack.cc:29:0:
+/home/saul/play/alien-lisp/tests/catch.hpp: In instantiation of 'Clara::CommandLine<ConfigT>::Arg::Arg(const Clara::Detail::BoundArgFunction<C>&) [with ConfigT = Catch::ConfigData]':
+/home/saul/play/alien-lisp/tests/catch.hpp:4139:52:   required from 'Clara::CommandLine<ConfigT>::ArgBinder::ArgBinder(Clara::CommandLine<ConfigT>*, F) [with F = bool Catch::ConfigData::*; ConfigT = Catch::ConfigData]'
+/home/saul/play/alien-lisp/tests/catch.hpp:4207:39:   required from 'Clara::CommandLine<ConfigT>::ArgBinder Clara::CommandLine<ConfigT>::bind(F) [with F = bool Catch::ConfigData::*; ConfigT = Catch::ConfigData]'
+/home/saul/play/alien-lisp/tests/catch.hpp:4411:41:   required from here
+/home/saul/play/alien-lisp/tests/catch.hpp:4071:13: warning: 'Clara::CommandLine<Catch::ConfigData>::Arg::shortNames' should be initialized in the member initialization list [-Weffc++]
+             Arg( Detail::BoundArgFunction<ConfigT> const& _boundField ) : boundField( _boundField ), position( -1 ) {}
+             ^
+/home/saul/play/alien-lisp/tests/catch.hpp:4071:13: warning: 'Clara::CommandLine<Catch::ConfigData>::Arg::longName' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:4071:13: warning: 'Clara::CommandLine<Catch::ConfigData>::Arg::description' should be initialized in the member initialization list [-Weffc++]
+/home/saul/play/alien-lisp/tests/catch.hpp:4071:13: warning: 'Clara::CommandLine<Catch::ConfigData>::Arg::hint' should be initialized in the member initialization list [-Weffc++]
+Linking CXX executable tests
+[100%] Built target tests
+10:10:37: The process "/usr/bin/make" exited normally.
+10:10:37: Elapsed time: 00:06.
